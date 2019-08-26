@@ -1,0 +1,126 @@
+#grid-container{
+
+
+    display: grid;
+    width: 70vw;
+    margin: 0px auto;
+    margin-top: 100px;
+    grid-template-rows:3;
+    grid-auto-columns: 5;
+    grid-template: 
+    "area1 area1 area1 area4 area4"
+    "area1 area1 area1 area4 area4"
+    "area3 area3 area2 area4 area4"
+    
+              
+
+
+
+}
+
+.grid-item:nth-child(1){
+
+grid-area: area1;
+background-color: blue;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+height:100px;
+margin: 5px;
+}
+.grid-item:nth-child(2){
+
+grid-area: area2;
+background-color: green;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+margin: 5px;
+
+}
+.grid-item:nth-child(3){
+
+grid-area: area3;
+background-color: pink;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+margin: 5px;
+
+}
+.grid-item:nth-child(4){
+
+grid-area: area4;
+background-color: yellow;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+margin: 5px;
+
+}
+/*
+.grid-item:nth-child(5){
+
+grid-area: area5;
+background-color: orange;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+margin: 5px;
+}
+.grid-item:nth-child(6){
+
+    grid-area: area6;
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    }
+    .grid-item:nth-child(7){
+
+        grid-area: area6;
+        background-color: red;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        margin: 5px;
+        }
+        .grid-item:nth-child(8){
+
+            grid-area: area6;
+            background-color: red;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+            }
+            .grid-item:nth-child(9){
+
+                grid-area: area6;
+                background-color: red;
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+                margin: 5px;
+                }
+                .grid-item:nth-child(10){
+
+                    grid-area: area6;
+                    background-color: red;
+                    border: 1px solid rgba(0, 0, 0, 0.8);
+                    padding: 20px;
+                    font-size: 30px;
+                    text-align: center;
+                    margin: 5px;
+                    }
+                                                */

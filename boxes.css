@@ -1,0 +1,69 @@
+
+#main_con{
+    display: flex;
+    width: 70vw;
+    background-color: DodgerBlue;
+    margin: 0px auto;
+}
+
+#main_con .items{
+    background-color:red;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+}
+
+
+#main_con2{
+    display: flex;
+    width: 70vw;
+    background-color: DodgerBlue;
+    margin: 0px auto;   
+    justify-content: center;
+}
+
+#main_con2 .items2{
+    background-color:yellow;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+
+}
+
+#main_con3{
+    display: flex;
+    width: 70vw;
+    background-color: DodgerBlue;
+    margin: 0px auto;   
+    justify-content: center;
+    margin-top:0px;
+}
+
+#main_con3 .items3{
+    background-color:green;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
